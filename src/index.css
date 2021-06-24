@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-style: Arial;
+  font-size: 16px;
+  line-height: 1.6em;
+  background-color: #D7D29D;
+  
+}
+.centralDiv{
+  width : 100%;
+  height: 100vh;
+  background-image: url('./component/images/f1.jpg');
+  background-size: cover;
+  background-position:center;
+  position: relative;
+  overflow:hidden;
+}
+.centralDiv2{
+  width : 100%;
+  height: 100vh;
+  background-image: url('./component/images/f6.jpg');
+  background-size: cover;
+  background-position:center;
+  position: relative;
+  overflow: auto;
+}
+table{
+  width:100%;
+  margin: auto;
+  border: black solid;
+  border-collapse:separate;
+  font-weight: bold;
+}
+
+
+td{
+  font-size: 18px;
+  border: 0.5px black solid;
+}
+
+th{
+  border: 0.5px black solid;
+  font-size: 20px ;
+  color: #1180FE;  
+}
+
+
+.container{
+  width: 50%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#header{
+  background-color:transparent;
+  color: black;
+  text-align: center;
+  font: 20px algerian;;
+  padding: 20px;
+}
+
+.form {
+  width: 60%;
+  padding: 3em 2rem;
+  background: transparent;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.form label{
+  display: block;
+  font: 18px Algerian;
+}
+
+.form input{
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 0;
+  border-bottom: 1px solid black;
+  border-radius: 5px;
+}
+.form input::placeholder{
+  color: #333;
+}
+.inp{
+  color: black;
+  background-color: transparent;
+}
+.btn{
+  background-color: black ;
+  color: white;
+}
+
+.btn:hover {
+  background-color: gray;
+  color: black;
+}
+
+#nav-bar{
+  width: 100%;
+  background-color:transparent;
+}
+
+.head{
+  margin: 20px;
+  font: 30px algerian;
+  text-transform: uppercase;
+}
+
+
+.rightAlign{
+  
+  text-align: right;
+}
+
+
+.btn2{
+  width: 100px;
+  padding: 5px 10px;
+  margin: 5px;
+  background-color: transparent;
+  border: 5px black solid;
+  border-radius: 10px;
+  border-style:ridge;
+  color: black;
+}
+
+.btn2:hover {
+  width: 200px;
+  background-color: gray;
+  color: black;
+}
+
+.centerAlign{
+  text-align: center;
+  align-items: center;
+}
+
+.lastRow{
+  color: red;
+  font-size: 18px;
+}
